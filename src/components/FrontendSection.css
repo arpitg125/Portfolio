@@ -1,0 +1,29 @@
+.frontend-section {
+    padding: 40px;
+    background-color: transparent;
+  }
+  
+  .experience-card {
+    background-color: #2b2b2b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #4cb5f5;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #cccccc;
+  }
+  
